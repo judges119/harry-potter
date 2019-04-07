@@ -4,8 +4,6 @@
   "description": "Pottermore Announcement Bot",
   "main": "index.js",
   "dependencies": {
-    "fortune-cookie": "0.0.1",
-    "npm": "^6.4.0",
     "twit": "^2.2.11"
   },
   "devDependencies": {},
