@@ -14,8 +14,8 @@ tweetFortune()
 setInterval(tweetFortune, 1000 * 60 * 60 * 8);
 
 function tweetFortune() {
-  let character = characters.splice(Math.floor(Math.random() * characters.length), 1)
-  let identity = identities.splice(Math.floor(Math.random() * identities.length), 1)
+  let character = characters[Math.floor(Math.random() * characters.length)];
+  let identity = identities[Math.floor(Math.random() * identities.length)];
   let tweet = character + ' ' + identity;
   if (Math.random() < 0.05) {
     tweet += "; it's just never discussed in the books";
